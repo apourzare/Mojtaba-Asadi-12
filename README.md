@@ -1,4 +1,4 @@
-## Extentions
+# Extentions
 
-# Live Server
-# Material Icon Theme
+## Live Server
+## Material Icon Theme
