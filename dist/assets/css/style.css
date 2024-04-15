@@ -4,8 +4,22 @@
   box-sizing: border-box;
 }
 
+.navbar {
+  width: 100%;
+  height: 65px;
+  border-bottom: 1px solid #e42424;
+}
+.navbar .brand {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
 body {
-  background-color: #838383;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
