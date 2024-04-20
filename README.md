@@ -14,4 +14,4 @@ git clone <repository_url>
 git fetch --all
 
 ## step 3
-git checkout -b <local-branch> <origin-branch>
+git checkout -b "local-branch" "origin-branch"
