@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+
+@import "base";
+@import "colors";
+
+
+$display-items: flex, block, inline-block, inline, none, grid;
+
+@each $item in $display-items {
+    .#{$item} {
+        display: $item;
+    }
+}
+
+$flex-directions: row, row-reverse, column, column-reverse;
+@each $i in $flex-directions {
+    .#{$i} {
+        flex-direction: $i;
+    }
+}
+
+$justify-content-items: flex-start, flex-end, center, space-between, space-around, space-evenly;
+@each $x in $justify-content-items {
+    .justify-#{$x} {
+        justify-content: $x;
+    }
+}
+
+$align-items: flex-start, flex-end, center;
+@each $x in $align-items {
+    .align-#{$x} {
+        align-items: $x;
+    }
+}
+
+$sizes: xs 8, sm 12, md 16, lg 20, xl 24, 2xl 28;
+@each $item, $val in $sizes {
+    .text-#{$item} {
+        font-size: #{$val}px;
+    }
+} 
+
+
+@for $i from 1 to 10 {
+    @for $j from 1 to 10 {
+        .aspect-#{$i}-to-#{$j} {
+            aspect-ratio: #{$i}/#{$j};
+        }
+    }
+}
+
+.card {
+    width: 400px;
+    border: 1px solid #4f4f4f;
+    display: block;
+    // aspect-ratio: 2/10;
+}
+

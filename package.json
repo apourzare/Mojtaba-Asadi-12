@@ -1,0 +1,15 @@
+{
+  "name": "007",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch src/scss/main.scss dist/assets/css/style.css --no-source-map",
+    "dev-min": "sass --watch src/scss/main.scss dist/assets/css/style.min.css --style=compressed --no-source-map",
+    "dev2": "sass --watch src/scss:dist/assets/css --no-source-map",
+    "dev2-min": "sass --watch src/scss:dist/assets/css --style=compressed --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
