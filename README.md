@@ -15,3 +15,8 @@ git fetch --all
 
 ## step 3
 git checkout -b "local-branch" "origin-branch"
+
+
+# Git Cheat Sheet
+
+`https://education.github.com/git-cheat-sheet-education.pdf`
