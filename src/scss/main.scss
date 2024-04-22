@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+
+@import "base";
+@import "colors";
+
+
 $display-items: flex, block, inline-block, inline, none, grid;
 
 @each $item in $display-items {
